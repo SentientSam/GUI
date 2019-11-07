@@ -1,5 +1,5 @@
 # GUI
-A tester file I am using to experiment with GUi and start developing
+Tester files I am using to experiment with GUi and start developing
 
 Graphical User Interfaces have become an interest of mine and I am hoping to experiment with them further and get to the point where I am comfortable developing.
 
