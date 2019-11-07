@@ -14,7 +14,7 @@ button1 = Button(topFrame,text="Uno",fg="red")
 button4 = Button(topFrame,text="Dos",fg="orange")
 button2 = Button(btmFrame,text="Tres",fg="green")
 button3 = Button(btmFrame,text="Quattro",fg="blue")
-button1.pack(side=LEFT)
+button1.pack(side=LEFT) #packing with parameters will move these buttons. That way, rather than being on top of each other, these buttons will be beside one another
 button2.pack(side=LEFT)
 button3.pack(side=LEFT)
 button4.pack()
