@@ -16,5 +16,5 @@ def name_3(event): #event could be left click, right click, etc.
   print("Samuel Lamb 3.0")
 button2 = Button(window,text="No! No! Press Me!",bg = "yellow")
 button2.bind("<Button-3>",name_3) #button-3 is right click
-button2.pack(fill=X) #comment 2
+button2.pack(fill=X) #comment 2.2
 window.mainloop()
