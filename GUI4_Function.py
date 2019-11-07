@@ -16,5 +16,18 @@ def name_3(event): #event could be left click, right click, etc.
   print("Samuel Lamb 3.0")
 button2 = Button(window,text="No! No! Press Me!",bg = "yellow")
 button2.bind("<Button-3>",name_3) #button-3 is right click
-button2.pack(fill=X) #comment 2.2.2.5
+button2.pack(fill=X) 
+
+#binding allows for these different events with the functions. Say you want a utton to do different things with each click:
+def name_4(event):
+    print("Left Click")
+def name_5(event): 
+  print("Middle Click")
+def name_6(event):
+  print("Right Click")
+button4 = Button(window,text="Multi-Purpose",bg="purple")
+button4.bind("<Button-1>",name_4) #If left clicked, "Left Click"
+button4.bind("<Button-2>",name_5) #If Middle clicked, "Middle Click"
+button4.bind("<Button-3>",name_6) #If Right clicked, "Right Click"
+button4.pack(fill=X)
 window.mainloop()
