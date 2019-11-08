@@ -13,3 +13,6 @@ GUI3_Grid.py is where I started integrating the topic into the name (finally). I
 
 GUI4_Function.py shows how to bind functions with widgets. Essentially this allows for buttins, etc. to actually perform an action. This file shows 2 methods of binding: The command parameter, and the bind function.
 
+GUI5_Classes.py shows how classes are used with tkinter and also gives some insight into the exit button functionality and the init command function
+
+GUI6_Menu.py is a menu file showing how to create and use a drop down menu. It does not go far into the uses of this but simply sshows the basics of "how to"
