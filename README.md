@@ -18,3 +18,6 @@ GUI5_Classes.py shows how classes are used with tkinter and also gives some insi
 GUI6_Menu.py is a menu file showing how to create and use a drop down menu. It does not go far into the uses of this but simply sshows the basics of "how to"
 
 The second half of GUI6_Menu.py is showing how to make a toolbar and status bar (like in most applications)
+
+GUI7_MessageBox.py showcases the message box in tkinter and how you can use it for various things. It is a pretty simple file but it can be very useful.
+
