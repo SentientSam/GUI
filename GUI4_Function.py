@@ -18,7 +18,7 @@ button2 = Button(window,text="No! No! Press Me!",bg = "yellow")
 button2.bind("<Button-3>",name_3) #button-3 is right click
 button2.pack(fill=X) 
 
-#binding allows for these different events with the functions. Say you want a utton to do different things with each click:
+#binding allows for these different events with the functions. Say you want a button to do different things with each click:
 def name_4(event):
     print("Left Click")
 def name_5(event): 
