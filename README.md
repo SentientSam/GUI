@@ -16,3 +16,5 @@ GUI4_Function.py shows how to bind functions with widgets. Essentially this allo
 GUI5_Classes.py shows how classes are used with tkinter and also gives some insight into the exit button functionality and the init command function
 
 GUI6_Menu.py is a menu file showing how to create and use a drop down menu. It does not go far into the uses of this but simply sshows the basics of "how to"
+
+The second half of GUI6_Menu.py is showing how to make a toolbar and status bar (like in most applications)
