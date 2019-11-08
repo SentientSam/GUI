@@ -22,3 +22,5 @@ The second half of GUI6_Menu.py is showing how to make a toolbar and status bar 
 GUI7_MessageBox.py showcases the message box in tkinter and how you can use it for various things. It is a pretty simple file but it can be very useful.
 
 GUI8_Shapes.py is a small file showing how to make a canvas and shapes on the canvas. Also how to delte those shapes, etc.
+
+GUI9_Icons.py is how to add images within tkinter.
