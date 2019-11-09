@@ -2,7 +2,7 @@ from tkinter import*
 
 def write_File_1 (total):
     file = open("Note.txt", "a") #This function write_File will make a note.txt or take the one in the locations and add the input to it
-    file.write('\n' + 'Service: ' + total.get() + '\n') #.get() takes the total variable (the input) and extracts the text from it
+    file.write('\n' + 'Service:  ' + total.get() + '\n') #.get() takes the total variable (the input) and extracts the text from it
     file.close()
 def write_File_2 (total):
     file = open("Note.txt", "a")
