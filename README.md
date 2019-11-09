@@ -24,3 +24,5 @@ GUI7_MessageBox.py showcases the message box in tkinter and how you can use it f
 GUI8_Shapes.py is a small file showing how to make a canvas and shapes on the canvas. Also how to delte those shapes, etc.
 
 GUI9_Icons.py is how to add images within tkinter.
+
+GUI10_Credential.py is a personal project I wanted to work on that takes a service, username, and password input and posts those to a text file. It is fairly simple but showcases some useful tkinter applications. I often forget login credentials to some small sites and so this is a file I can easily pull up to store those is a secure space (after hashing)
