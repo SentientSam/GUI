@@ -1,8 +1,13 @@
 
-Service: Amazon
-Username: DDS
-Password: HaloRing
+ Service: Just
+Username: an
+Password: Example
+Add Info: Output
 
-Service:  1
-Username: 2
-Password: 3
+^^ This one was with Service moved forward, I do not like it though
+
+
+Service:  This
+Username: One
+Password: Looks
+Add Info: Better
