@@ -4,19 +4,19 @@ from tkinter import ttk
 def write_File_1 (total):
     file = open("Note.txt", "a") #This function write_File will make a note.txt or take the one in the locations and add the input to it
     file.write('\n' + 'Service:  ' + total.get() + '\n') #.get() takes the total variable (the input) and extracts the text from it
-    file.close()
+    #file.close()
     total.delete(0, END) #This will erase the entry fields after each button press, resetting and making things look cleaner
 
 def write_File_2 (total):
     file = open("Note.txt", "a")
     file.write('Username: ' + total.get() + '\n')
-    file.close()
+    #file.close()
     total.delete(0, END)
 
 def write_File_3 (total):
     file = open("Note.txt", "a")
     file.write('Password: ' + total.get() + '\n')
-    file.close()
+    #file.close()
     total.delete(0, END)
 
 def write_File_4 (total):
