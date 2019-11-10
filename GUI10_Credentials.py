@@ -1,4 +1,5 @@
-from tkinter import*
+from tkinter import *
+from tkinter import ttk
 
 def write_File_1 (total):
     file = open("Note.txt", "a") #This function write_File will make a note.txt or take the one in the locations and add the input to it
@@ -25,9 +26,10 @@ def write_File_4 (total):
     total.delete(0, END)
 
 
-
 window = Tk()
-
+window.title("Credential Storage")
+window.minsize(325,150)
+#window.configure(background = "gray")
 #see label & grid tutorials if you need help with the formatting below
 
 service = Label(window,text="Service:")
@@ -51,9 +53,8 @@ input_4.grid(row=4, column=2)
 
 #lambda is a service that allows for multiple functions to be assigned to one widget. I called all the functions I build to activate with the click of button_1
 button_1 = Button( window , text = "Send to Note.txt" , command = lambda:[write_File_1(input_1),write_File_2(input_2),write_File_3(input_3),write_File_4(input_4)]).grid(row=5, columnspan=2, column=1)
-
-
-
+window.bind('<Return>', lambda event=None:[write_File_1(input_1),write_File_2(input_2),write_File_3(input_3),write_File_4(input_4)])
+#This bind is so that you can simply press <Enter> instead of the button if you want to.
 # Output would be:  Service: <input_3>
 #                  Username: <input_2>
 #                  Password: <input_3>
