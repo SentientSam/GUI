@@ -4,18 +4,27 @@ def write_File_1 (total):
     file = open("Note.txt", "a") #This function write_File will make a note.txt or take the one in the locations and add the input to it
     file.write('\n' + 'Service:  ' + total.get() + '\n') #.get() takes the total variable (the input) and extracts the text from it
     file.close()
+    total.delete(0, END) #This will erase the entry fields after each button press, resetting and making things look cleaner
+
 def write_File_2 (total):
     file = open("Note.txt", "a")
     file.write('Username: ' + total.get() + '\n')
     file.close()
+    total.delete(0, END)
+
 def write_File_3 (total):
     file = open("Note.txt", "a")
     file.write('Password: ' + total.get() + '\n')
     file.close()
+    total.delete(0, END)
+
 def write_File_4 (total):
     file = open("Note.txt","a")
     file.write('Add Info: ' + total.get() + '\n')
     file.close() #added in an additional info section just incase there are security codes, hints, etc.
+    total.delete(0, END)
+
+
 
 window = Tk()
 
@@ -49,7 +58,5 @@ button_1 = Button( window , text = "Send to Note.txt" , command = lambda:[write_
 #                  Username: <input_2>
 #                  Password: <input_3>
 #                  Add Info: <input_4>
-
-
 
 window.mainloop()
